@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { GitHubIcon, LinkedInIcon, TwitterIcon, EnvelopeIcon } from '@sumanth/components/Icons';
+import { GitHubIcon, LinkedInIcon, TwitterIcon, EnvelopeIcon } from '@/components/Icons';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();

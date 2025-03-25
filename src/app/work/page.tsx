@@ -2,7 +2,8 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { ExternalLinkIcon, GitHubIcon } from '@sumanth/components/Icons';
+import Image from 'next/image';
+import { ExternalLinkIcon, GitHubIcon } from '@/components/Icons';
 
 // Project type definition
 interface Project {

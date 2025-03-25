@@ -5,7 +5,7 @@ import {
   LinkedInIcon,
   ChevronRightIcon,
   DocumentIcon,
-} from '@sumanth/components/Icons';
+} from '@/components/Icons';
 
 export default function Home() {
   return (
@@ -16,14 +16,14 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 animate-fade-in-up">
               <div className="inline-block px-3 py-1 text-sm font-medium text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/50 rounded-full">
-                Senior Frontend Engineer
+                Senior Frontend Developer
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Hi, I'm <span className="text-indigo-600 dark:text-indigo-400">John Doe</span>
+                Hi, I'm <span className="text-indigo-600 dark:text-indigo-400">Sumanth Pagidipalli</span>
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed max-w-2xl">
-                With 11 years of experience crafting modern web experiences. I specialize in React,
-                Next.js, and building performant, accessible applications.
+                With a decade of experience crafting high-scalable applications. I specialize in React,
+                Next.js, and delivering enterprise-grade software solutions.
               </p>
 
               <div className="flex flex-wrap gap-4 pt-2">
@@ -51,7 +51,7 @@ export default function Home() {
                   <span>Resume</span>
                 </Link>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/sumanthio"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-300"
@@ -60,7 +60,7 @@ export default function Home() {
                   <span className="sr-only">GitHub</span>
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://linkedin.com/in/sumanthpagidipalli"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors duration-300"
@@ -75,7 +75,7 @@ export default function Home() {
               <div className="relative w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 overflow-hidden rounded-full border-4 border-indigo-600 dark:border-indigo-400 shadow-xl">
                 <Image
                   src="/profile.jpg"
-                  alt="John Doe, Senior Frontend Engineer"
+                  alt="Sumanth Pagidipalli, Senior Frontend Developer"
                   fill
                   className="object-cover"
                   priority
@@ -94,7 +94,7 @@ export default function Home() {
           </h2>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
-            {['React', 'Next.js', 'TypeScript', 'TailwindCSS', 'Node.js', 'GraphQL'].map((tech) => (
+            {['React', 'Next.js', 'TypeScript', 'Redux', 'Node.js', 'GraphQL'].map((tech) => (
               <div
                 key={tech}
                 className="flex flex-col items-center p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"

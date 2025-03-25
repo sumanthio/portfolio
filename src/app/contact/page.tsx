@@ -1,8 +1,8 @@
 'use client';
 
-import type { FormEvent } from 'react';
-import { useState } from 'react';
-import { GitHubIcon, LinkedInIcon, TwitterIcon, EnvelopeIcon } from '@sumanth/components/Icons';
+import { useState, FormEvent } from 'react';
+import Link from 'next/link';
+import { GitHubIcon, LinkedInIcon, TwitterIcon, EnvelopeIcon } from '@/components/Icons';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({

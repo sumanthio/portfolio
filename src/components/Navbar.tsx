@@ -1,9 +1,10 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
-import { SunIcon, MoonIcon, MenuIcon, XIcon } from '@sumanth/components/Icons';
+import { useTheme } from 'next-themes';
+import { SunIcon, MoonIcon, MenuIcon, XIcon } from '@/components/Icons';
 import { navLinks } from '@/data/navigation';
 import type { NavLink } from '../types';
 import { useDarkMode } from '../hooks/useThemeMode';
