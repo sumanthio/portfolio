@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { CodeIcon, UserIcon, DocumentIcon } from '@sumanth/components/Icons';
+import { CodeIcon, UserIcon, DocumentIcon } from '@/components/Icons';
 
 export default function AboutPage() {
   return (
@@ -14,20 +14,20 @@ export default function AboutPage() {
                 About Me
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
-                I'm a Senior Frontend Engineer with 11 years of experience building robust,
-                user-friendly web applications. My journey in web development started in 2013, and
+                I'm Sumanth Pagidipalli, a Senior Frontend Developer with a decade of experience building robust,
+                user-friendly web applications. My journey in web development started in 2014, and
                 I've been passionate about creating exceptional user experiences ever since.
               </p>
               <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
-                Currently, I specialize in React, Next.js, and TypeScript, focusing on building
-                fast, accessible, and scalable frontend applications.
+                I specialize in React, Next.js, and TypeScript, with expertise in building
+                enterprise-grade applications using MERN stack, Redux, GraphQL, and serverless architectures.
               </p>
             </div>
             <div className="flex justify-center lg:justify-end">
               <div className="relative w-full h-96 overflow-hidden rounded-lg shadow-xl">
                 <Image
                   src="/about.jpg"
-                  alt="John Doe working on code"
+                  alt="Sumanth Pagidipalli working on code"
                   fill
                   className="object-cover"
                   priority
@@ -57,7 +57,7 @@ export default function AboutPage() {
                 <li>React & React ecosystem</li>
                 <li>Next.js (App & Pages Router)</li>
                 <li>TypeScript</li>
-                <li>JavaScript (ES6+)</li>
+                <li>Redux & Redux Toolkit</li>
                 <li>HTML5 & CSS3</li>
                 <li>TailwindCSS & Styled Components</li>
               </ul>
@@ -74,9 +74,9 @@ export default function AboutPage() {
                 <li>Node.js & Express</li>
                 <li>GraphQL</li>
                 <li>RESTful APIs</li>
-                <li>PostgreSQL & MongoDB</li>
-                <li>Serverless Architecture</li>
-                <li>Firebase</li>
+                <li>MongoDB</li>
+                <li>Serverless (AWS Lambda)</li>
+                <li>Microservices Architecture</li>
               </ul>
             </div>
 
@@ -89,8 +89,8 @@ export default function AboutPage() {
               </h3>
               <ul className="space-y-2 text-gray-600 dark:text-gray-300">
                 <li>Git & GitHub</li>
-                <li>Jest & React Testing Library</li>
-                <li>CI/CD (GitHub Actions, CircleCI)</li>
+                <li>Docker & Kubernetes</li>
+                <li>CI/CD Pipelines</li>
                 <li>Agile Methodologies</li>
                 <li>Performance Optimization</li>
                 <li>Web Accessibility (WCAG)</li>
@@ -110,35 +110,35 @@ export default function AboutPage() {
           <div className="relative border-l-4 border-indigo-600 dark:border-indigo-400 ml-6 md:ml-0 md:mx-auto">
             {/* Timeline items */}
             <TimelineItem
-              year="2022 - Present"
-              title="Senior Frontend Engineer"
-              company="Tech Innovations Inc."
-              description="Leading frontend development for enterprise applications, implementing architectural decisions, and mentoring junior developers."
+              year="2024 - Present"
+              title="Member of Technical Staff"
+              company="Endor Labs"
+              description="Working on modern web applications with React, TypeScript, and Next.js, implementing robust frontend architectures."
               technologies={['React', 'Next.js', 'TypeScript', 'GraphQL']}
             />
 
             <TimelineItem
-              year="2018 - 2022"
-              title="Frontend Developer"
-              company="Digital Solutions Ltd."
-              description="Developed responsive web applications, collaborated with UX/UI designers, and implemented modern frontend practices."
-              technologies={['React', 'JavaScript', 'Redux', 'SCSS']}
+              year="2017 - 2024"
+              title="Senior Frontend Developer"
+              company="Bytemark, Inc."
+              description="Led frontend development for enterprise-level applications, implemented scalable solutions, and mentored junior developers."
+              technologies={['React', 'Redux', 'TypeScript', 'Next.js']}
             />
 
             <TimelineItem
-              year="2015 - 2018"
-              title="Web Developer"
-              company="Creative Agency"
-              description="Built websites for clients across various industries, focusing on responsive design and cross-browser compatibility."
-              technologies={['JavaScript', 'jQuery', 'WordPress', 'PHP']}
+              year="2023 - 2024"
+              title="Senior Frontend Developer"
+              company="Sqills"
+              description="Developed frontend applications for the travel and transportation industry, collaborated with international teams remotely."
+              technologies={['React', 'JavaScript', 'TypeScript', 'GraphQL']}
             />
 
             <TimelineItem
-              year="2013 - 2015"
-              title="Junior Developer"
-              company="StartUp XYZ"
-              description="Started my professional journey developing web interfaces and learning modern web development practices."
-              technologies={['HTML', 'CSS', 'JavaScript', 'Bootstrap']}
+              year="2014 - 2017"
+              title="UI Engineer"
+              company="Fission Labs"
+              description="Built responsive web applications, integrated RESTful APIs, and ensured cross-browser compatibility."
+              technologies={['JavaScript', 'HTML5', 'CSS3', 'jQuery']}
               isLast={true}
             />
           </div>
@@ -158,18 +158,10 @@ export default function AboutPage() {
 
               <div className="mb-6">
                 <div className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Bachelor of Science in Computer Science
+                  Bachelor of Technology in Computer Science
                 </div>
-                <div className="text-indigo-600 dark:text-indigo-400">University of Technology</div>
-                <div className="text-gray-600 dark:text-gray-300 text-sm">2009 - 2013</div>
-              </div>
-
-              <div>
-                <div className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Associate Degree in Web Development
-                </div>
-                <div className="text-indigo-600 dark:text-indigo-400">Community College</div>
-                <div className="text-gray-600 dark:text-gray-300 text-sm">2007 - 2009</div>
+                <div className="text-indigo-600 dark:text-indigo-400">JNTU Hyderabad</div>
+                <div className="text-gray-600 dark:text-gray-300 text-sm">2010 - 2014</div>
               </div>
             </div>
 
@@ -183,23 +175,15 @@ export default function AboutPage() {
                   AWS Certified Developer - Associate
                 </div>
                 <div className="text-indigo-600 dark:text-indigo-400">Amazon Web Services</div>
-                <div className="text-gray-600 dark:text-gray-300 text-sm">2021</div>
-              </div>
-
-              <div className="mb-6">
-                <div className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Professional Frontend Developer
-                </div>
-                <div className="text-indigo-600 dark:text-indigo-400">Frontend Masters</div>
-                <div className="text-gray-600 dark:text-gray-300 text-sm">2019</div>
+                <div className="text-gray-600 dark:text-gray-300 text-sm">2022</div>
               </div>
 
               <div>
                 <div className="text-lg font-semibold text-gray-900 dark:text-white">
-                  React Certification
+                  Professional Scrum Master I (PSM I)
                 </div>
-                <div className="text-indigo-600 dark:text-indigo-400">Meta</div>
-                <div className="text-gray-600 dark:text-gray-300 text-sm">2018</div>
+                <div className="text-indigo-600 dark:text-indigo-400">Scrum.org</div>
+                <div className="text-gray-600 dark:text-gray-300 text-sm">2021</div>
               </div>
             </div>
           </div>
@@ -252,27 +236,24 @@ function TimelineItem({
   isLast?: boolean;
 }) {
   return (
-    <div className={`ml-8 mb-12 ${isLast ? '' : 'pb-8'}`}>
-      <div className="absolute -left-4 mt-1.5 w-8 h-8 rounded-full bg-indigo-600 dark:bg-indigo-400 flex items-center justify-center">
-        <span className="text-white text-sm font-bold">{year.substring(0, 2)}</span>
-      </div>
-
-      <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md">
-        <span className="inline-block mb-2 px-3 py-1 text-sm font-medium text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/50 rounded-full">
-          {year}
-        </span>
-        <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-1">{title}</h3>
-        <div className="text-indigo-600 dark:text-indigo-400 mb-3">{company}</div>
-        <p className="text-gray-600 dark:text-gray-300 mb-4">{description}</p>
-        <div className="flex flex-wrap gap-2">
-          {technologies.map((tech) => (
-            <span
-              key={tech}
-              className="px-2 py-1 text-xs font-medium text-gray-600 dark:text-gray-300 bg-gray-100 dark:bg-gray-700 rounded-full"
-            >
-              {tech}
-            </span>
-          ))}
+    <div className="mb-12 ml-8 md:ml-0">
+      <div className="absolute w-6 h-6 bg-indigo-600 dark:bg-indigo-400 rounded-full mt-1.5 -left-3 md:left-1/2 md:-ml-3 border-4 border-white dark:border-gray-900"></div>
+      <div className="md:w-1/2 md:pr-12 md:text-right md:ml-auto">
+        <div className="px-4 py-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+          <div className="text-indigo-600 dark:text-indigo-400 font-medium">{year}</div>
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white mt-1">{title}</h3>
+          <div className="text-gray-700 dark:text-gray-200 font-medium">{company}</div>
+          <p className="text-gray-600 dark:text-gray-300 mt-2">{description}</p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {technologies.map((tech) => (
+              <span
+                key={tech}
+                className="px-2 py-1 text-xs font-medium text-indigo-600 bg-indigo-100 dark:text-indigo-300 dark:bg-indigo-900/30 rounded"
+              >
+                {tech}
+              </span>
+            ))}
+          </div>
         </div>
       </div>
     </div>

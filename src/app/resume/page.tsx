@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { DocumentIcon } from '@sumanth/components/Icons';
+import { DocumentIcon } from '@/components/Icons';
 
 export default function ResumePage() {
   return (
@@ -33,22 +33,22 @@ export default function ResumePage() {
         <div className="max-w-4xl mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-md p-8 md:p-12">
           {/* Resume Header */}
           <div className="text-center mb-12 pb-6 border-b border-gray-200 dark:border-gray-700">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">John Doe</h2>
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Sumanth Pagidipalli</h2>
             <p className="text-xl text-indigo-600 dark:text-indigo-400 mb-4">
-              Senior Frontend Engineer
+              Senior Frontend Developer
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-gray-600 dark:text-gray-300">
-              <span>San Francisco, CA</span>
+              <span>Bengaluru, India</span>
               <span>•</span>
               <a
-                href="mailto:hello@example.com"
+                href="mailto:sumanthp544@gmail.com"
                 className="text-indigo-600 dark:text-indigo-400 hover:underline"
               >
-                hello@example.com
+                sumanthp544@gmail.com
               </a>
               <span>•</span>
               <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/sumanthpagidipalli"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-indigo-600 dark:text-indigo-400 hover:underline"
@@ -57,7 +57,7 @@ export default function ResumePage() {
               </a>
               <span>•</span>
               <a
-                href="https://github.com"
+                href="https://github.com/sumanthio"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-indigo-600 dark:text-indigo-400 hover:underline"
@@ -71,10 +71,12 @@ export default function ResumePage() {
           <div className="mb-12">
             <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Summary</h3>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              Senior Frontend Engineer with 11 years of experience developing robust applications.
-              Specialized in React, Next.js, and TypeScript with a focus on creating scalable,
-              accessible, and performance-optimized web applications. Passionate about clean code,
-              UI/UX, and implementing modern frontend practices.
+              Inventive Senior Front End Developer with a decade of expertise in crafting high-scalable 
+              applications and delivering enterprise-grade software solutions. Proficient in MERN stack, 
+              NextJS, ReactJS + Redux, Redux Toolkit, TypeScript, with expertise in GraphQL, serverless 
+              architectures (AWS Lambda). Well-versed in backend development using ExpressJS, NodeJS, 
+              and MongoDB, complemented by a strong understanding of microservices architecture and 
+              containerisation tools like Docker and Kubernetes.
             </p>
           </div>
 
@@ -87,28 +89,25 @@ export default function ResumePage() {
               <div>
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    Senior Frontend Engineer
+                    Member of Technical Staff
                   </h4>
                   <div className="text-gray-600 dark:text-gray-400 text-sm italic mt-1 md:mt-0">
-                    Jan 2022 – Present
+                    Sep 2024 – Present
                   </div>
                 </div>
                 <div className="mb-2 text-indigo-600 dark:text-indigo-400">
-                  Tech Innovations Inc., San Francisco, CA
+                  Endor Labs, USA · Full-time
                 </div>
                 <ul className="list-disc pl-5 space-y-1 text-gray-600 dark:text-gray-300">
                   <li>
-                    Lead the frontend development of enterprise SaaS application serving 100,000+
-                    users
+                    Developing modern web applications with React, TypeScript, and Next.js
                   </li>
                   <li>
-                    Architected and implemented key features that increased user engagement by 35%
+                    Implementing robust frontend architectures and design systems
                   </li>
                   <li>
-                    Mentored junior developers and conducted code reviews for team of 8 engineers
+                    Collaborating with cross-functional teams to deliver high-quality software solutions
                   </li>
-                  <li>Optimized application performance resulting in 40% faster page load times</li>
-                  <li>Implemented comprehensive testing strategy, achieving 90%+ code coverage</li>
                 </ul>
               </div>
 
@@ -116,23 +115,21 @@ export default function ResumePage() {
               <div>
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    Frontend Developer
+                    Senior Frontend Developer
                   </h4>
                   <div className="text-gray-600 dark:text-gray-400 text-sm italic mt-1 md:mt-0">
-                    Mar 2018 – Dec 2021
+                    Jun 2017 – Sep 2024
                   </div>
                 </div>
                 <div className="mb-2 text-indigo-600 dark:text-indigo-400">
-                  Digital Solutions Ltd., Seattle, WA
+                  Bytemark, Inc., Bengaluru, India · On-site
                 </div>
                 <ul className="list-disc pl-5 space-y-1 text-gray-600 dark:text-gray-300">
-                  <li>Developed responsive web applications using React, Redux, and JavaScript</li>
-                  <li>Collaborated with UX/UI designers to implement pixel-perfect interfaces</li>
-                  <li>Integrated RESTful APIs and GraphQL endpoints with frontend applications</li>
-                  <li>
-                    Participated in agile development processes, daily standups, and sprint planning
-                  </li>
-                  <li>Improved accessibility compliance to meet WCAG 2.1 AA standards</li>
+                  <li>Led frontend development for enterprise-level applications over 7+ years</li>
+                  <li>Architected scalable solutions using React, Redux, and TypeScript</li>
+                  <li>Implemented responsive, accessible, and performance-optimized interfaces</li>
+                  <li>Mentored junior developers and conducted code reviews</li>
+                  <li>Collaborated with UX/UI designers to create intuitive user experiences</li>
                 </ul>
               </div>
 
@@ -140,26 +137,46 @@ export default function ResumePage() {
               <div>
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    Web Developer
+                    Senior Frontend Developer
                   </h4>
                   <div className="text-gray-600 dark:text-gray-400 text-sm italic mt-1 md:mt-0">
-                    Jun 2015 – Feb 2018
+                    Jul 2023 – Jan 2024
                   </div>
                 </div>
                 <div className="mb-2 text-indigo-600 dark:text-indigo-400">
-                  Creative Agency, Portland, OR
+                  Sqills, Enschede, Netherlands · Remote
                 </div>
                 <ul className="list-disc pl-5 space-y-1 text-gray-600 dark:text-gray-300">
                   <li>
-                    Built websites for clients across various industries using JavaScript, jQuery,
-                    and PHP
+                    Developed frontend applications for the travel and transportation industry
                   </li>
-                  <li>Focused on responsive design and cross-browser compatibility</li>
-                  <li>Managed WordPress-based sites and implemented custom themes and plugins</li>
                   <li>
-                    Worked directly with clients to gather requirements and provide technical
-                    solutions
+                    Collaborated with international teams in a remote working environment
                   </li>
+                  <li>
+                    Implemented features using modern JavaScript frameworks and libraries
+                  </li>
+                </ul>
+              </div>
+
+              {/* Job 4 */}
+              <div>
+                <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
+                  <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
+                    UI Engineer
+                  </h4>
+                  <div className="text-gray-600 dark:text-gray-400 text-sm italic mt-1 md:mt-0">
+                    Jun 2014 – May 2017
+                  </div>
+                </div>
+                <div className="mb-2 text-indigo-600 dark:text-indigo-400">
+                  Fission Labs, Hyderabad, India · On-site
+                </div>
+                <ul className="list-disc pl-5 space-y-1 text-gray-600 dark:text-gray-300">
+                  <li>Built responsive web applications using JavaScript, HTML5, and CSS3</li>
+                  <li>Focused on delivering cross-browser compatible solutions</li>
+                  <li>Integrated RESTful APIs with frontend applications</li>
+                  <li>Participated in agile development processes</li>
                 </ul>
               </div>
             </div>
@@ -175,30 +192,28 @@ export default function ResumePage() {
                   Frontend Development
                 </h4>
                 <p className="text-gray-600 dark:text-gray-300">
-                  React, Next.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, TailwindCSS, Styled
-                  Components
+                  React, Next.js, TypeScript, JavaScript (ES6+), Redux, Redux Toolkit, HTML5, CSS3, TailwindCSS, Styled Components
                 </p>
               </div>
 
               <div>
                 <h4 className="font-medium text-gray-900 dark:text-white mb-2">Backend & API</h4>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Node.js, Express, GraphQL, RESTful APIs, PostgreSQL, MongoDB
+                  Node.js, Express, GraphQL, RESTful APIs, MongoDB, Serverless (AWS Lambda)
                 </p>
               </div>
 
               <div>
-                <h4 className="font-medium text-gray-900 dark:text-white mb-2">Tools & Workflow</h4>
+                <h4 className="font-medium text-gray-900 dark:text-white mb-2">Tools & Infrastructure</h4>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Git, GitHub, Jest, React Testing Library, Webpack, CI/CD, Docker
+                  Git, GitHub, Jest, React Testing Library, Webpack, CI/CD, Docker, Kubernetes
                 </p>
               </div>
 
               <div>
                 <h4 className="font-medium text-gray-900 dark:text-white mb-2">Soft Skills</h4>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Technical Leadership, Mentoring, Problem Solving, Communication, Agile
-                  Methodologies
+                  Technical Leadership, Mentoring, Problem Solving, Communication, Agile Methodologies
                 </p>
               </div>
             </div>
@@ -212,25 +227,13 @@ export default function ResumePage() {
               <div>
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    Bachelor of Science in Computer Science
+                    Bachelor of Technology in Computer Science
                   </h4>
                   <div className="text-gray-600 dark:text-gray-400 text-sm italic mt-1 md:mt-0">
-                    2009 – 2013
+                    2010 – 2014
                   </div>
                 </div>
-                <div className="text-indigo-600 dark:text-indigo-400">University of Technology</div>
-              </div>
-
-              <div>
-                <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
-                  <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    Associate Degree in Web Development
-                  </h4>
-                  <div className="text-gray-600 dark:text-gray-400 text-sm italic mt-1 md:mt-0">
-                    2007 – 2009
-                  </div>
-                </div>
-                <div className="text-indigo-600 dark:text-indigo-400">Community College</div>
+                <div className="text-indigo-600 dark:text-indigo-400">JNTU Hyderabad</div>
               </div>
             </div>
           </div>
@@ -245,22 +248,17 @@ export default function ResumePage() {
                   AWS Certified Developer - Associate
                 </h4>
                 <div className="text-gray-600 dark:text-gray-400 text-sm">
-                  Amazon Web Services, 2021
+                  Amazon Web Services, 2022
                 </div>
               </div>
-
+              
               <div>
                 <h4 className="font-semibold text-gray-900 dark:text-white">
-                  Professional Frontend Developer
+                  Professional Scrum Master I (PSM I)
                 </h4>
                 <div className="text-gray-600 dark:text-gray-400 text-sm">
-                  Frontend Masters, 2019
+                  Scrum.org, 2021
                 </div>
-              </div>
-
-              <div>
-                <h4 className="font-semibold text-gray-900 dark:text-white">React Certification</h4>
-                <div className="text-gray-600 dark:text-gray-400 text-sm">Meta, 2018</div>
               </div>
             </div>
           </div>
