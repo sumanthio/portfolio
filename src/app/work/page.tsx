@@ -1,15 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { ExternalLinkIcon, GitHubIcon } from '@sumanth/components/Icons';
-
-export const metadata = {
-  title: 'Work | Senior Frontend Engineer Portfolio',
-  description:
-    'Explore my projects and work as a Senior Frontend Engineer with 11 years of experience.',
-};
 
 // Project type definition
 interface Project {

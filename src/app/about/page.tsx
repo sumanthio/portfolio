@@ -2,12 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { CodeIcon, UserIcon, DocumentIcon } from '@sumanth/components/Icons';
 
-export const metadata = {
-  title: 'About | Senior Frontend Engineer Portfolio',
-  description:
-    'Learn about my 11 years of experience as a Senior Frontend Engineer, skills, and career journey.',
-};
-
 export default function AboutPage() {
   return (
     <div className="animate-fade-in">

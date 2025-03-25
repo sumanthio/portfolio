@@ -1,12 +1,6 @@
 import Link from 'next/link';
 import { DocumentIcon } from '@sumanth/components/Icons';
 
-export const metadata = {
-  title: 'Resume | Senior Frontend Engineer Portfolio',
-  description:
-    'View and download my professional resume outlining my 11 years of experience as a Senior Frontend Engineer.',
-};
-
 export default function ResumePage() {
   return (
     <div className="animate-fade-in">

@@ -1,11 +1,5 @@
 import Link from 'next/link';
 
-export const metadata = {
-  title: 'Blog | Senior Frontend Engineer Portfolio',
-  description:
-    'Read my thoughts, tutorials, and insights on frontend development and web technologies.',
-};
-
 export default function BlogPage() {
   return (
     <div className="animate-fade-in">
